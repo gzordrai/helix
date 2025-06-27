@@ -1,0 +1,12 @@
+[language-server]
+
+[[language]]
+name = "haskell"
+scope = "source.haskell"
+auto-format = true
+
+[[language]]
+name = "toml"
+scope = "source.toml"
+formatter = { command = "taplo", args = ["fmt", "-"] }
+auto-format = true
