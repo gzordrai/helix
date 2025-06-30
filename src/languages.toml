@@ -6,6 +6,12 @@ scope = "source.haskell"
 auto-format = true
 
 [[language]]
+name = "rust"
+scope = "rust.toml"
+formatter = { command = "rustfmt" }
+auto-format = true
+
+[[language]]
 name = "toml"
 scope = "source.toml"
 formatter = { command = "taplo", args = ["fmt", "-"] }
