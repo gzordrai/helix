@@ -1,1 +1,6 @@
 theme = "github_dark"
+
+[editor.auto-save]
+focus-lost = true
+after-delay.timeout = 3000
+after-delay.enable = true
