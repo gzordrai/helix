@@ -4,7 +4,7 @@
 command = "clippy"
 
 [language-server.rust-analyzer.config.cargo]
-features = "all"
+allFeatures = true
 
 [[language]]
 name = "haskell"
@@ -13,9 +13,8 @@ auto-format = true
 
 [[language]]
 name = "rust"
-scope = "rust.toml"
-formatter = { command = "rustfmt" }
-auto-format = true
+scope = "source.rust"
+formatter = { command = "rustfmt", args = ["--edition", "2024"] }
 
 [[language]]
 name = "toml"
