@@ -21,3 +21,8 @@ name = "toml"
 scope = "source.toml"
 formatter = { command = "taplo", args = ["fmt", "-"] }
 auto-format = true
+
+[[language]]
+name = "tsx"
+scope = "source.tsx"
+auto-format = true
