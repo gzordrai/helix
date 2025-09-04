@@ -26,3 +26,8 @@ auto-format = true
 name = "tsx"
 scope = "source.tsx"
 auto-format = true
+
+[[language]]
+name = "latex"
+scope = "source.tex"
+auto-format = true
