@@ -6,7 +6,6 @@
 - Toml formatter: `cargo install taplo-cli --locked --features lsp`
 - Typescript lsp: `npm install -g typescript-language-server`
 - Latex lsp: `cargo install --git https://github.com/latex-lsp/texlab --locked`
-- Latex formatter: `cargo install tex-fmt`
 
 ## Installation
 
