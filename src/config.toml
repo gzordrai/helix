@@ -4,3 +4,6 @@ theme = "github_dark"
 focus-lost = true
 after-delay.timeout = 3000
 after-delay.enable = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
